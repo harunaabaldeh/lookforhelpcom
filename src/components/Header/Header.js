@@ -1,7 +1,6 @@
 import Link from "next/link";
 import React from "react";
 import {
-  AiFillGithub,
   AiFillInstagram,
   AiFillLinkedin,
   AiFillFacebook,
@@ -28,17 +27,17 @@ const Header = () => (
     </Div1>
     <Div2>
       <li>
-        <Link href="#projects">
+        <Link href="/">
           <NavLink>Counselling</NavLink>
         </Link>
       </li>
       <li>
-        <Link href="#tech">
+        <Link href="#stories">
           <NavLink>Stories</NavLink>
         </Link>
       </li>
       <li>
-        <Link href="#tech">
+        <Link href="#advice">
           <NavLink>Advice</NavLink>
         </Link>
       </li>

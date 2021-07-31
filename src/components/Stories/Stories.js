@@ -12,7 +12,7 @@ import {
   TitleContent,
   UtilityList,
   Img,
-} from "./ProjectsStyles";
+} from "./StoriesStyles";
 import {
   Section,
   SectionDivider,
@@ -20,10 +20,10 @@ import {
 } from "../../styles/GlobalComponents";
 import { projects } from "../../constants/constants";
 
-const Projects = () => (
-  <Section nopadding id="projects">
+const Stories = () => (
+  <Section nopadding id="stories">
     <SectionDivider />
-    <SectionTitle main>Projects</SectionTitle>
+    <SectionTitle main>Stories</SectionTitle>
     <GridContainer>
       {projects.map((p, i) => {
         return (
@@ -53,4 +53,4 @@ const Projects = () => (
   </Section>
 );
 
-export default Projects;
+export default Stories;
